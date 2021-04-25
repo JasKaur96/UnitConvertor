@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/design.css">
+    <!-- <script  defer src="../js/unitTesting.js"> -->
+    <script data-main="scripts/main" defer src="../js/unitCalculation.js"  src="https://cdnjs.cloudflare.com/ajax/libs/require.js/x.y.z/require.js"></script>
+    </script>
+</head>
+<body>
+
+    <div class ="converter-body">
+        <h1 class="converter-title">Quantity Measurement</h1>
+        <div>
+            <select id="unitType" >
+                <option value="area" selected>Area</option>
+                <option value="length">Length</option>
+                <option value="temperature">Temperation</option>
+                <!-- <option value="time">Time</option> -->
+            </select>
+        </div>
+        <br>
+        <input type="number" class="input" onfocus="this.value=''" placeholder="input" id="input">
+        <span>=</span>
+        <input type="number" class="input" onfocus="this.value=''" placeholder="result" id="result">
+      
+        <select id="inputType" >
+            <!-- <option value="millimeter">Millimeter</option>
+            <option value="centimeter">Centimeter</option>
+            <option value="meter">Meter</option>
+            <option value="kilometer">KiloMeter</option>      --> -->
+            <!-- <option value="mile">Mile</option>
+            <option value="foot">Foot</option>
+            <!-- <option value="inch">Inch</option> -->
+        </select>
+        <select id="resultType">
+            <!-- <option value="millimeter">Millimeter</option>
+            <option value="centimeter">Centimeter</option>
+            <option value="meter">Meter</option>
+            <option value="kilometer">KiloMeter</option>      -->
+            <!-- <option value="mile">Mile</option>
+            <option value="foot">Foot</option>
+            <option value="inch">Inch</option> -->
+        </select>
+        <br>
+        <!-- <div><p>Result: <span class="meters"></span></p></div> -->
+    </div>
+   
+</body>
+</html>
